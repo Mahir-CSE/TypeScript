@@ -90,7 +90,40 @@ let d : {
 };
 
 d = {
-    name: "Tamim",
+    name: "Tanzid",
     id: 28,
     isStudent: true
 }
+console.log(d)
+
+//Part 07: any type or dynamic type
+
+let var1;
+let var2: any;
+let var3: any[] = [];
+let var4: {
+    name: any;
+    age: any;
+}
+
+var1 = 30;
+console.log(var1)
+var1 = "Dhaka";
+console.log(var1)
+
+var2 = true;
+console.log(var2)
+var2 = ["Apple", "Banana", "Mango"];
+console.log(var2)
+
+var3.push("Bogura");
+var3.push(73);
+var3.push(true);
+
+console.log(var3);
+
+var4 = {
+    name: "Mahir",
+    age: 28
+}
+console.log(var4);
